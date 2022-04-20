@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: allura;
+    src: url("assets/allura.zip");
+  }
+  
+  canvas {
+    display: block;
+  }
+
+  .gameTitle{
+    width: 10%;
+    height: 150px;
+  }
+  
+  .gameTitleAfterEffect{
+    font-size: 20px;
+    color:rgba(78, 74, 74, 0.756);
+    font-family: allura;
+    text-align: center;
+  }
+
+  .greeting{
+    font-size: 40px;
+    color: rgba(117, 107, 107, 0.769);
+    font-family: allura;
+    text-align: center;
+  }
+
+  .customInput {
+    width:210px;
+    height:30px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    border-radius: 9px;
+    padding: 5px;
+    background-color:transparent;
+    font-size: 20px;
+    outline:none;
+    color:rgb(255, 255, 255);
+    font-family: allura;
+    text-align: center;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5; /* Firefox */
+  } 
+  
+  .customButton {
+    width:180px;
+    height:50px;
+    background-color: #9b0800;
+    border: 2.5px solid white;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    border-radius: 10px;
+    margin-bottom:100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: allura;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline: none;
+  }
+  
+  
+  .resetButton {
+    width:160px;
+    height:40px;
+    background-size: none;
+    border-radius: 30px;
+    background-color: rgba(117, 107, 107, 0.769);
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline: none;
+  }
+  
+  .resetText{
+    font-size: 20px;
+    color:  rgba(225, 219, 219, 0.909);;
+    font-family: allura;
+    text-align: center;
+  }
+  
+  .leadersText{
+    font-size: 20px;
+    color: white;
+    font-family: allura;
+    text-align: center;
+  }
+  
+  
+  
